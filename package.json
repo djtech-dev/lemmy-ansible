@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "bash build.sh",
-    "start": "ansible-playbook -i inventory/hosts lemmy.yml --become --ask-pass --ask-become-pass",
+    "start": "ansible-playbook -i inventory/hosts lemmy.yml --become --ask-pass --ask-become-pass"
   },
   "repository": {
     "type": "git",
